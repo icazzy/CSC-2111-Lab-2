@@ -4,7 +4,6 @@
 #include <iostream>
 using namespace std;
 
-// I CHANGED IT!
 //the indices are 1-based!!
 Matrix::Matrix(int r, int c)
 {
