@@ -21,7 +21,7 @@ void WriteFile::close()
    }
 }
 
-WriteFile::writeLine(String* line)
+void WriteFile::writeLine(String* line)
 {
    if (!closed && line->length() > 0)
    {
