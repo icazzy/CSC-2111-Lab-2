@@ -3,18 +3,16 @@
 
 WriteFile::WriteFile(const char* file_name)
 {
-   wf = new WriteFile;
-
-   return wf;
+   output_file.open(file_name);
+   closed = false;
 }
 
 WriteFile::~WriteFile()
 {
-   close(wf);
-   delete[] wf;
+   close();
 }
 
-WriteFile::close()
+void WriteFile::close()
 {
    if (!closed)
    {
