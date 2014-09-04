@@ -13,6 +13,8 @@ class Keyboard
    public:
       virtual ~Keyboard();
       static Keyboard* getKeyboard();
+      
+      //something
 
 //pre: the string (character literal) that will prompt the user for input
 //post: the input read from the keyboard interpreted as an int is returned
