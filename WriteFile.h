@@ -8,11 +8,11 @@ using namespace std;
 
 class WriteFile
 {
-   private;   
+   private:   
    ofstream output_file;
    bool closed;
    
-   public;
+   public:
    WriteFile(const char* file_name);
    ~WriteFile();
    String* writeLine();
