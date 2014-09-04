@@ -15,7 +15,7 @@ class WriteFile
    public:
    WriteFile(const char* file_name);
    ~WriteFile();
-   String* writeLine();
+   void writeLine();
    bool eof();
    void close();
 };
